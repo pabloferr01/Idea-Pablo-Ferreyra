@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #E5BC39;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+
+.links__menu{
+    display: inline-block;
+    margin: 5px 5px 5px;
+    padding: 3px;
+    border:solid 1px black;
+    background-color: #BEBEBE;
+}
+
+section div{
+    border-radius: 0.5%;
+    background-color: #BEBEBE;
+    padding: 3px;
+    margin: 5px;
+
+}
+
+img{
+    border-radius: 0.5%;
+}
+
+section.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "A"
+    "B"
+    "C"
+    "D"
+    "E"
+    
+    ;
+}
+
+
+.inmuebles1{
+    grid-area: A;
+}
+
+.inmuebles2{
+    grid-area: B;
+}
+
+.inmuebles3{
+    grid-area: C;
+}
+
+.inmuebles4{
+    grid-area: D;
+}
+
+.inmuebles5{
+    grid-area: E;
+}
+
+
+
+footer div p{
+    display: flex;
+    justify-content: center;
+    margin: 5px 5px 5px 2px;
+}
+
+.logo__facebook{
+    position: fixed;
+    right: 60px;
+    bottom: 2rem
+}
+
+.logo__instagram{
+    position: fixed;
+    right: 40px;
+    bottom: 2rem
+}
+
+.logo__youtube{
+    position: fixed;
+    right: 20px;
+    bottom: 2rem
+}
+
+
+
+.pie__info{
+    margin: 0px 5px 5px 2px;
+    
+
+}
+
+main.contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 5px;
+    padding: 3px;
+    border-radius: 0.5%;
+    background-color: #BEBEBE;
+}
+
+@media(max-width: 500px){
+    main form fieldset{
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+@media(max-width: 500px){
+    section.grid-container{
+        display: grid;
+        grid-template-areas: 
+        "A"
+        "B"
+        "C"
+        "D"
+        "E";}
+    }
