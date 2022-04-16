@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #E5BC39;
+    background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206));
     font-family: 'Roboto', sans-serif;
 }
 
@@ -32,7 +32,13 @@ section div{
 }
 
 img{
-    border-radius: 0.5%;
+    transition:2s;
+}
+
+img:hover{
+    border-radius: 5%;
+    transform: scale(1.2);
+
 }
 
 section.grid-container{
@@ -79,7 +85,8 @@ footer div p{
 .logo__facebook{
     position: fixed;
     right: 60px;
-    bottom: 2rem
+    bottom: 2rem;
+    transform: rotate(-15deg);
 }
 
 .logo__instagram{
@@ -91,7 +98,8 @@ footer div p{
 .logo__youtube{
     position: fixed;
     right: 20px;
-    bottom: 2rem
+    bottom: 2rem;
+    transform: rotate(15deg);
 }
 
 
@@ -127,5 +135,4 @@ main.contacto{
         "B"
         "C"
         "D"
-        "E";}
-    }
+        "E";}}
