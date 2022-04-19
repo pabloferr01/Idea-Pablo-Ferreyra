@@ -5,7 +5,7 @@
 }
 
 body{
-    background: linear-gradient(rgb(165, 165, 165), rgb(206, 206, 206));
+    background: radial-gradient(rgb(165, 165, 165), rgb(206, 206, 206));
     font-family: 'Roboto', sans-serif;
 }
 
@@ -37,7 +37,7 @@ img{
 
 img:hover{
     border-radius: 5%;
-    transform: scale(1.2);
+    transform: scale(1.05);
 
 }
 
@@ -102,6 +102,10 @@ footer div p{
     transform: rotate(15deg);
 }
 
+.form-floating{
+    display: flex;
+    justify-content: center;
+}
 
 
 .pie__info{
