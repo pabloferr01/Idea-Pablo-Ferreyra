@@ -114,6 +114,11 @@ footer div p{
 
 }
 
+form fieldset{
+    display: flex;
+    justify-content: center;
+}
+
 main.contacto{
     display: flex;
     justify-content: center;
