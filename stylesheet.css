@@ -9,19 +9,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-ul{
-    display: flex;
-    justify-content: center;
 
-}
 
-.links__menu{
-    display: inline-block;
-    margin: 5px 5px 5px;
-    padding: 3px;
-    border:solid 1px black;
-    background-color: #BEBEBE;
-}
 
 section div{
     border-radius: 0.5%;
