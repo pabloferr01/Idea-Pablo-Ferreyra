@@ -4,22 +4,28 @@
 
 }
 
-body{
-    background: radial-gradient(rgb(165, 165, 165), rgb(206, 206, 206));
+body{ 
+    background-image: linear-gradient(to left, #434343 0%, black 100%);
     font-family: 'Roboto', sans-serif;
 
 }
 
-section div{
+
+/* section div{
     border-radius: 0.5%;
     background-color: #BEBEBE;
     padding: 3px;
     margin: 5px;
 
+} */
+
+iframe{
+    max-width: 100%;
 }
 
 img{
     transition:2s;
+    max-width: 100%;
 }
 
 img:hover{
@@ -28,7 +34,7 @@ img:hover{
 
 }
 
-section.grid-container{
+/* section.grid-container{
     display: grid;
     grid-template-areas: 
     "A"
@@ -60,10 +66,10 @@ section.grid-container{
 .inmuebles5{
     grid-area: E;
 }
+ */
 
 
-
-footer div p{
+footer p{
     display: flex;
     justify-content: center;
     margin: 5px 5px 5px 2px;
@@ -113,17 +119,18 @@ main.contacto{
     margin: 5px 5px 5px;
     padding: 3px;
     border-radius: 0.5%;
-    background-color: #BEBEBE;
 }
 
-@media(max-width: 500px){
+
+
+/* @media(max-width: 500px){
     main form fieldset{
       display: flex;
       flex-direction: column;
     }
-}
+} */
 
-@media(max-width: 500px){
+/* @media(max-width: 500px){
     section.grid-container{
         display: grid;
         grid-template-areas: 
@@ -131,4 +138,4 @@ main.contacto{
         "B"
         "C"
         "D"
-        "E";}}
+        "E";}} */
