@@ -19,6 +19,17 @@ body{
 
 } */
 
+button{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.comentarios{
+    display: flex;
+    justify-content: center;
+}
+
 iframe{
     max-width: 100%;
 }
