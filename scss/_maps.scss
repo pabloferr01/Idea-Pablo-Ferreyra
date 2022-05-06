@@ -1,0 +1,12 @@
+$colores: (
+    facebook:#3b5998,
+    instagram:#d6249f,
+    youtube:#c4302b
+);
+
+@each $redes, $color in $colores {
+    .logos__#{$redes} {
+        color: #{$color};
+    }
+    
+}

@@ -1,19 +1,17 @@
+@import "body";
+@import "maps";
+@import "extend";
+@import "mixin";
+
+
 *{
     margin: 0;
     padding: 0;
 
 }
 
-@import "body";
 
 
-/* section div{
-    border-radius: 0.5%;
-    background-color: #BEBEBE;
-    padding: 3px;
-    margin: 5px;
-
-} */
 
 button{
     display: flex;
@@ -41,39 +39,6 @@ img:hover{
 
 }
 
-/* section.grid-container{
-    display: grid;
-    grid-template-areas: 
-    "A"
-    "B"
-    "C"
-    "D"
-    "E"
-    
-    ;
-}
-
-
-.inmuebles1{
-    grid-area: A;
-}
-
-.inmuebles2{
-    grid-area: B;
-}
-
-.inmuebles3{
-    grid-area: C;
-}
-
-.inmuebles4{
-    grid-area: D;
-}
-
-.inmuebles5{
-    grid-area: E;
-}
- */
 
 
 footer{
@@ -132,21 +97,3 @@ main.contacto{
     border-radius: 0.5%;
 }
 
-
-
-/* @media(max-width: 500px){
-    main form fieldset{
-      display: flex;
-      flex-direction: column;
-    }
-} */
-
-/* @media(max-width: 500px){
-    section.grid-container{
-        display: grid;
-        grid-template-areas: 
-        "A"
-        "B"
-        "C"
-        "D"
-        "E";}} */
