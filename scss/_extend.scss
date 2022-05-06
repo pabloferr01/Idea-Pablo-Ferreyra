@@ -1,0 +1,9 @@
+.pruebaextend{
+    text-decoration: underline gray
+}
+
+.pruebaextend2{
+    @extend .pruebaextend;
+    text-decoration: underline rgb(223, 223, 223)
+}
+
