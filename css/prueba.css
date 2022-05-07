@@ -39,12 +39,12 @@ iframe {
   max-width: 100%; }
 
 img {
-  transition: 2s;
+  transition: 1s;
   max-width: 100%; }
 
 img:hover {
   border-radius: 5%;
-  transform: scale(1.05); }
+  transform: scale(1.02); }
 
 footer p {
   display: flex;
